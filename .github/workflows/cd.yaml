@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
     inputs:
-      image_reference:
+      image_ref:
         description: 'Docker image (e.g. parreis/go-fibonacci-api:11bbe1b)'
         required: true
         environment:
